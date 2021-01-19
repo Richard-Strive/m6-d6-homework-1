@@ -46,5 +46,5 @@ VALUES('ANATRA','Google', 'Richard Johnson Addai', 'trainee', 'Via Strada Vecchi
 12. DELETE FROM public.customers WHERE city='Lyon'
 
 -- Update all null region values to 'Unknown'
-12. UPDATE public.customers SET region='Uknown' WHERE region IS NULL 
+13. UPDATE public.customers SET region='Uknown' WHERE region IS NULL 
 
